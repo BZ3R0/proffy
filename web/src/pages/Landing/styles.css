@@ -49,7 +49,7 @@
     text-decoration: none;
     color: var(--color-button-text);
 
-    transtion: background-color 0.2s;
+    transition: background-color 0.2s;
 }
 
 .buttons-container a:first-child {
