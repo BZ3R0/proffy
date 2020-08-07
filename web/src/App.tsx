@@ -1,7 +1,8 @@
 import React from 'react';
-import Landing from './pages/Landing';
+import Routes from './pages/routes';
 
 import './assets/styles/global.css';
+
 
 // Isso abaixo é chamado de componentes. Componentes são funções que retornam um html
 // Nome do componente sempre com letra maiuscula
@@ -9,7 +10,7 @@ import './assets/styles/global.css';
 // Um componente é muito utilizado para estrutura de loops
 function App() {
   return (
-    <Landing />
+    <Routes />
   );
 }
 
