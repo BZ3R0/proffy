@@ -18,7 +18,7 @@ function TeacherItem() {
             <p>
                 Apaixonado pelo E.C Bahia.
                 <br/><br/>
-                E aqui vai um monte de bla bla bla.
+                Desde que comprou sua primeira camisa do Bahia, nunca mais conseguiu tirar, e viaja para todos os lugares com a mesma. Que já sabe até andar sozinha.
             </p>
 
             <footer>
