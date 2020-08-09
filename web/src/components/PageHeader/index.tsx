@@ -10,7 +10,7 @@ import './styles.css';
 // Abaixo estão listadas as propriedades que o componente pode receber, se passar ? após o nome da variavel, ela é opcional
 interface PageHeaderProps {
     title: string;
-    // subtitle?: string;
+    description?: string;
 }
 
 // Tenho um componente chamado PageHeader, ele é um FunctionComponent (FC) e ele possui as propriedades de PageHeaderProps
@@ -26,7 +26,7 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
 
             <div className="header-content">
                 <strong>{ props.title }</strong>
-
+                { props.description && <p>{ props.description }</p> }
                 { props.children }
             </div>
         </header>
