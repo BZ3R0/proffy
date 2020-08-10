@@ -11,6 +11,11 @@ yarn add axios //consumir api externas
 - expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 - yarn add @react-navigation/stack
 - yarn add @react-navigation/bottom-tabs
+- expo install @react-native-community/async-storage
 
 
-obs: https://reactnavigation.org/
+
+link:
+- https://reactnavigation.org/
+- https://docs.expo.io/versions/latest/sdk/async-storage/
+- (versão2) https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970
